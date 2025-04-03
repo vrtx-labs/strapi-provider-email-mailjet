@@ -12,7 +12,7 @@
   },
   "dependencies": {
     "lodash": "^4.17.15",
-    "node-mailjet": "^3.3.7"
+    "node-mailjet": "^6.0.8"
   },
   "devDependencies": {
     "@ijsto/eslint-config": "^2.1.3",

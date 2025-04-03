@@ -23,7 +23,7 @@
   },
   // Auto-fix issues with ESLint when you save code changes
   "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true
+    "source.fixAll.eslint": "explicit"
   },
   // Prevent double-formatting and potential ESLint <> Prettier conflicts (ESLint formatting will be used instead)
   "prettier.disableLanguages": [
