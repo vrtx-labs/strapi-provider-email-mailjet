@@ -98,7 +98,26 @@ node_modules
 
 
 ############################
-# Tests
+# Test and development files
 ############################
 
 test
+tests/
+coverage/
+*.test.js
+*.spec.js
+
+
+############################
+# Exclude config and tooling
+############################
+.github/
+.vscode/
+.eslintrc
+.eslintignore
+
+
+############################
+# Local environment files
+############################
+.nvmrc

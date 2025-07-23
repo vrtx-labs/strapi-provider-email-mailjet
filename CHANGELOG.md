@@ -5,6 +5,35 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [4.1.1] - 2025-07-23
+
+### Added
+- Updated dev dependencies
+
+## [4.1.0] - 2025-04-04
+
+### Added
+
+- Add support for node-mailjet 6.0.8
+- Remove deprecated function removeUndefined, support for Strapi v5
+  
+## [4.0.0] - 2022-04-01
+
+### Added
+- adapt to strapi v4
+
+## [3.3.5] - 2021-02-23
+
+### Added
+
+- normalization of receiver fields
+- empty receiver error only if both to and defaultTo are empty
+- case sensitive fix
+- normalizeReceiver fix
+- fixed cc, bcc and attachments
+- Merge pull request ijsto#5 from burlakko/defaultToName_fix
+- feat(API): Add updateContact()
+
 ## [3.3.0] - 2020-11-21
 
 ### Added
